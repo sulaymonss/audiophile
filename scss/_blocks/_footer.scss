@@ -1,0 +1,111 @@
+.footer{
+    background-color: $dark-10;
+    padding-bottom: 40px;
+    &__line{
+        width: 101px;
+        height: 4px;
+        background-color: $coral;
+    }
+    &__nav{
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul li:not(:first-child){
+        margin-left: 34px;
+    }
+    ul .nav-link{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        color: $white;
+        transition: .3s ease;
+        padding: 0;
+        &:hover{
+            color: $coral;
+        }
+    }
+    &__text{
+        color: $white;
+        opacity: .5;
+        margin-top: 36px;
+        width: 540px;
+    }
+    &__icons{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -65px;
+    }
+    &__icons a{
+        margin-left: 16px;
+        font-size: 24px;
+        color: $white;
+        transition: .3s ease;
+        &:hover{
+            color: $coral;
+        }
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+    &__right{
+        margin-top: 56px;
+    }
+    &__end{
+        color: $white;
+        opacity: .5;
+    }
+}
+
+@media(max-width:768px){
+    .footer{
+        &__nav{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        ul{
+            margin-top: 35px;
+        }
+        &__text{
+            width: 100%;
+        }
+        &__icons{
+            margin-top: -8px;
+        }
+        &__right{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+@media(max-width:500px){
+    .footer{
+        &__nav{
+            align-items: center;
+        }
+        ul{
+            flex-direction: column;
+            text-align: center;
+        }
+        ul li:not(:first-child){
+            margin-left: 0px;
+        }
+        ul li{
+            margin-bottom: 16px;
+        }
+        &__text{
+            text-align: center;
+        }
+        &__right{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        &__end{
+            margin-bottom: 48px;
+        }
+    }
+} 

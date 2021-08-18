@@ -1,0 +1,138 @@
+.headphones-1{
+    margin-top: 70px;
+    &__btn{
+        border: none;        
+    }
+    .value{
+        background-color: $light-f1;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .value button{
+        background-color: transparent;
+        border: none;
+        opacity: .25;
+        transition: .3s ease;
+        &:hover{
+            color: $coral;
+            opacity: 1;
+        }
+    }
+}
+
+.features{
+    margin-bottom: 80px;
+    .col-md-4{
+        span{
+            color: $coral;
+        }
+    }
+}
+
+.may{
+    .card{
+        background-color: $light-f1;
+        .card-body{
+            width: 100%;
+        }
+    }
+}
+
+.modal{
+    &__total-value-color{
+        color: $coral;
+    }
+    &__total-1{
+        h6{
+            font-size: 14px;
+        }
+        span{
+            display: inline-block;
+            font-size: 15px;
+        }
+    }
+    &__value{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .col-12{
+        h6{
+            font-size: 15px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    .col__bg-color{
+        background-color: $light-f1;
+        border-radius: 8px 0 0 8px;
+        padding: 24px;
+    }
+    .col__bg-color-2{
+        border-radius: 0 8px 8px 0;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.checkout{
+    background-color: #F2F2F2;
+    .col-md-8{
+        h2{
+            margin-bottom: 40px;
+        }
+        h6{
+            color: $coral;
+            font-size: 13px;
+        }
+    }
+    label{
+        font-size: 13px;
+        color: $black;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+    }
+    input{
+        font-weight: bold;
+        font-size: 14px;
+        color: $black;
+        &::placeholder{
+            color: $black;
+            opacity: .4;
+        }
+        &:focus{
+            border: 1px solid $coral;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .features{
+        .col-md-4{
+            margin-top: 90px;
+        }
+    }
+    .headphones {
+        &__col-2{
+            margin-top: 40px;
+        }
+    }
+    .may{
+        .col-md-4{
+            margin-bottom: 40px;
+        }
+    }
+}
+@media(max-width:576px){
+    .gallery{
+        &__img{
+            width: 445px;
+        }
+    }
+}

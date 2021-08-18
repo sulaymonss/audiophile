@@ -1,0 +1,38 @@
+.header{
+    &__nav{
+        background-color: rgb(20, 20, 20);
+        .container{
+            border-bottom: 1px solid #555;
+            padding: 35px 12px;
+        }
+    }
+    .nav-link{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        padding: 0 16px;
+        &:hover{
+            color: $coral;
+        }
+    }
+    .nav-item:not(:last-child){
+        margin-right: 18px;
+    }
+    .fa-bars{
+        color: $white;
+        font-size: 23px;
+    }
+    .cart-btn{
+        background-color: transparent;
+        border: none;
+    }
+    svg{
+        fill: $white;
+        &:hover{
+            fill: $coral;
+            transition: .3s ease;
+        }
+    }
+}

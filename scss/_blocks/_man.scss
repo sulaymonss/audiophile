@@ -1,0 +1,28 @@
+.man{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    h2{
+        width: 90%;
+        span{
+            color: $coral;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .man{
+        margin-top: 0;
+        margin-bottom: 100px;
+        h2{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:500px){
+    .man{
+        h2{
+            font-size: 28px;
+            line-height: 38px;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', 'Arial', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.coral{
+    color: $coral;
+}
+
+.btn-1{
+    display: inline-block;
+    transition: .3s ease;
+    padding: 15px 30px;
+    border-radius: 0;
+    color: $white;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: $coral;
+    letter-spacing: 1px;
+    &:hover{
+        background-color: $light-coral;
+        color: $white;
+    }
+}
+
+.btn-2{
+    display: inline-block;
+    transition: .3s ease;
+    padding: 15px 30px;
+    border-radius: 0;
+    color: $black;
+    border: 1px solid $black;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    &:hover{
+        background-color: $black;
+        color: $white;
+    }
+}
+
+p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: $black;
+    opacity: .5;
+}
+
+.h2-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.h3-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.28571px;
+    color: $black;
+}
+
+.h4-title{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    color: $coral;
+}

@@ -1,0 +1,42 @@
+.headphones-title{
+    background-color: rgb(20 ,20, 20);
+    padding: 97px 0;
+}
+.headphones--title{
+    color: $white;
+    text-align: center;
+}
+
+.headphones{
+    margin-top: 160px;
+    &__col-2{
+        padding-left: 50px;
+    }
+    .row{
+        margin-bottom: 120px;
+    }
+}
+
+@media(max-width:768px){
+    .headphones{
+        margin-top: 120px;
+        &__col-2{
+            padding-left: 12px;
+        }
+    }
+}
+@media(max-width:500px){
+    .headphones{
+        margin-top: 64px;
+        .h2-title{
+            font-size: 28px;
+            line-height: 38px;
+        }
+    }
+    .headphones-title{
+        padding: 32px 0;
+    }
+    .headphones--title{
+        font-size: 28px;
+    }
+}

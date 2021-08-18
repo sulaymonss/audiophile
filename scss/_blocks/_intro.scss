@@ -1,0 +1,48 @@
+.intro{
+    background-color: rgb(20, 20, 20);
+    .container{
+        padding-top: 128px;
+        padding-bottom: 158px;
+        background-image: url(../img/intro-img.png);
+        background-repeat: no-repeat;
+        background-position: right -100px;
+    }
+    &__sub-title{
+        color: $white;
+        opacity: .5;
+    }
+    &__title{
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        color: $white;
+    }
+    &__text{
+        color: $white;
+        opacity: .75;
+        width: 349px;
+    }
+}
+
+@media(max-width:768px){
+    .intro{
+        .container{
+            background-image: url(../img/intro-img-mob.png);
+            background-position: center;
+        }
+        &__text{
+            margin: 0 auto;
+        }
+    }
+}
+@media(max-width:500px){
+    .intro{
+        &__title{
+            font-size: 36px;
+            line-height: 40px;
+        }
+        &__text{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.products{
+    margin-top: 200px;
+    &__btn{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: $black;
+        opacity: .5;
+        transition: .3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            color: $coral;
+            opacity: 1;
+        }
+        i{
+            margin-left: 13px;
+            font-size: 19px;
+        }
+    }
+    .card{
+        position: relative;
+        background-color: $light-f1;
+        border: none;
+        display: flex;
+        align-items: center;
+        height: 204px;
+        border-radius: 8px;
+        background-image: url(../img/oval.svg);
+        background-repeat: no-repeat;
+        background-position: center 20px;
+        img{
+            margin-top: -80px;
+        }
+        h3{
+            margin-top: 20px;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .products{
+        margin-top: 130px;
+        .card{
+            margin-bottom: 100px;
+        }
+    }
+}
+

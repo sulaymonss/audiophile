@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiophile(speakers)</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <header class="header">
+        <nav class="header__nav navbar navbar-expand-md p-0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars me-sm-4"></i>
+                </button>
+                <a class="navbar-brand me-sm-auto" href="./index.html"><img src="./img/logo.svg" alt="logo"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./headphones.html">HEADPHONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./speakers.html">SPEAKERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./earphones.html">EARPHONES</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.01883 13.1946H8.01776C7.64161 13.1955 7.33595 13.491 7.33595 13.8542C7.33595 14.2179 7.64268 14.5139 8.01954 14.5139H20.4154C20.793 14.5139 21.099 14.8092 21.099 15.1736C21.099 15.538 20.793 15.8333 20.4154 15.8333H19.25H9.25H8.01954C6.88876 15.8333 5.96876 14.9455 5.96876 13.8542C5.96876 13.0421 6.47843 12.343 7.20493 12.0382L4.73686 1.31944H1.18359C0.806016 1.31944 0.5 1.02412 0.5 0.659722C0.5 0.295329 0.806016 0 1.18359 0H5.28516C5.6056 0 5.88295 0.214753 5.95256 0.516611L6.44122 2.63889H23.1498C23.3643 2.63889 23.5663 2.73613 23.6956 2.9014C23.8246 3.06668 23.8659 3.28074 23.807 3.47986L21.0726 12.716C20.9888 12.9991 20.7205 13.1944 20.4154 13.1944H8.0215L8.01883 13.1946ZM9.25 15.8333C10.3987 15.8333 11.3333 16.7679 11.3333 17.9167C11.3333 19.0654 10.3987 20 9.25 20C8.10127 20 7.16667 19.0654 7.16667 17.9167C7.16667 16.7679 8.10127 15.8333 9.25 15.8333ZM19.25 15.8333C20.3987 15.8333 21.3333 16.7679 21.3333 17.9167C21.3333 19.0654 20.3987 20 19.25 20C18.1013 20 17.1667 19.0654 17.1667 17.9167C17.1667 16.7679 18.1013 15.8333 19.25 15.8333ZM19.8997 11.875L22.2435 3.95833H6.74492L8.56784 11.875H19.8997ZM9.94444 17.9167C9.94444 17.5338 9.63285 17.2222 9.25 17.2222C8.86715 17.2222 8.55556 17.5338 8.55556 17.9167C8.55556 18.2995 8.86715 18.6111 9.25 18.6111C9.63285 18.6111 9.94444 18.2995 9.94444 17.9167ZM19.25 17.2222C19.6328 17.2222 19.9444 17.5338 19.9444 17.9167C19.9444 18.2995 19.6328 18.6111 19.25 18.6111C18.8672 18.6111 18.5556 18.2995 18.5556 17.9167C18.5556 17.5338 18.8672 17.2222 19.25 17.2222Z"/>
+                    </svg>
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade right" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal__top">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title fw-bold" id="staticBackdropLabel">CART(3)</h5>
+                                <button type="button" class="text-decoration-underline border-0 bg-transparent text-muted">Remove All</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+
+                                    <div class="col-12 d-flex align-items-center mb-4">
+                                        <img src="./img/modal-img1.png" alt="modal img">
+                                        <div class="modal__info ms-3">
+                                            <h6 class="fw-bold mb-0">XX99 MK II</h6>
+                                            <span class="text-muted fw-bold">$ 2,999</span>
+                                        </div>
+                                        <div class="modal__value bg-light py-2 ms-auto">
+                                            <button type="button" class="text-muted bg-transparent border-0">-</button>
+                                            <span class="fw-bold d-inline-block mx-3">1</span>
+                                            <button type="button" class="text-muted bg-transparent border-0">+</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 d-flex align-items-center mb-4">
+                                        <img src="./img/modal-img2.png" alt="modal img">
+                                        <div class="modal__info ms-3">
+                                            <h6 class="fw-bold mb-0">XX59</h6>
+                                            <span class="text-muted fw-bold">$ 899</span>
+                                        </div>
+                                        <div class="modal__value bg-light py-2 ms-auto">
+                                            <button type="button" class="text-muted bg-transparent border-0">-</button>
+                                            <span class="fw-bold d-inline-block mx-3">2</span>
+                                            <button type="button" class="text-muted bg-transparent border-0">+</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 d-flex align-items-center">
+                                        <img src="./img/modal-img3.png" alt="modal img">
+                                        <div class="modal__info ms-3">
+                                            <h6 class="fw-bold mb-0">YX1</h6>
+                                            <span class="text-muted fw-bold">$ 599</span>
+                                        </div>
+                                        <div class="modal__value bg-light py-2 ms-auto">
+                                            <button type="button" class="text-muted bg-transparent border-0">-</button>
+                                            <span class="fw-bold d-inline-block mx-3">1</span>
+                                            <button type="button" class="text-muted bg-transparent border-0">+</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal__total mt-4 d-flex align-items-center justify-content-between">
+                                    <h6 class="text-muted mb-0">TOTAL</h6>
+                                    <span class="fw-bold fs-5 d-inline-block">$ 5,396</span>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer border-0 text-center">
+                                <a href="./checkout.html" class="btn-1 w-100">CHECKOUT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    </header>
+
+    <main class="main">
+        <section class="headphones-title">
+            <h1 class="headphones--title h2-title mb-0">SPEAKERS</h1>
+        </section>
+        <section class="headphones">
+            <div class="container">
+                <div class="row align-items-center text-center text-md-start">
+                    <div class="col-md-6">
+                        <picture>
+                            <source media="(max-width:430px)" srcset="./img/speakers-1-mob.png">
+                            <source media="(max-width:768px)" srcset="./img/speakers-1-tab.png">
+                            <img src="./img/speakers-1.png" alt="speakers" class="img-fluid">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 headphones__col-2">
+                        <h4 class="h4-title mb-3 mt-5 mt-md-0">NEW PRODUCT</h4>
+                        <h2 class="h2-title mb-4">ZX9 <br> SPEAKER</h2>
+                        <p class="mb-4 mb-md-5">Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
+                        <a href="./speakers-1.html" class="btn-1">SEE PRODUCT</a>
+                    </div>
+                </div>
+
+                <div class="row align-items-center text-center text-md-start">
+                    <div class="col-md-6 order-md-1">
+                        <picture>
+                            <source media="(max-width:430px)" srcset="./img/speakers-2-mob.png">
+                            <source media="(max-width:768px)" srcset="./img/speakers-2-tab.png">
+                            <img src="./img/speakers-2.png" alt="speakers" class="img-fluid">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 headphones__col-2">
+                        <h2 class="h2-title mb-4 mt-4 mt-md-0">ZX7 <br> SPEAKER</h2>
+                        <p class="mb-4 mb-md-5">Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
+                        <a href="./speakers-2.html" class="btn-1">SEE PRODUCT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 text-center">
+                        <div class="card">
+                            <img src="./img/headphone.png" alt="headphone">
+                            <div class="card-body">
+                                <h3 class="h3-title mb-3">HEADPHONES</h3>
+                                <a class="products__btn mb-2" href="./headphones.html">SHOP<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center">
+                        <div class="card">
+                            <img src="./img/speaker.png" alt="headphone" class="mb-2">
+                            <div class="card-body">
+                                <h3 class="h3-title mb-3">SPEAKERS</h3>
+                                <a class="products__btn mb-2" href="./speakers.html">SHOP<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center">
+                        <div class="card">
+                            <img src="./img/earphone.png" alt="headphone" class="mb-4">
+                            <div class="card-body">
+                                <h3 class="h3-title mb-3">EARPHONES</h3>
+                                <a class="products__btn mb-2" href="./earphones.html">SHOP<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="man">
+            <div class="container">
+                <div class="row align-items-center flex-column-reverse flex-md-row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <h2 class="h2-title mb-4">Bringing you the <span>best</span> audio gear</h2>
+                        <p class="man__text">Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <picture>
+                            <source media="(max-width:400px)" srcset="./img/man-mob.png">
+                            <source media="(max-width:768px)" srcset="./img/man-tab.png">
+                            <img src="./img/man.png" alt="man" class="img-fluid mb-5 mb-md-0">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__line"></div>
+            <nav class="footer__nav">
+                <a href="./index.html" class="footer__logo"><img src="./img/logo.svg" alt="logo"></a>
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./headphones.html">HEADPHONES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./speakers.html">SPEAKERS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./earphones.html">EARPHONES</a>
+                    </li>
+                  </ul>
+            </nav>
+            <div class="footer__center">
+                <p class="footer__text mb-0">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.</p>
+                <div class="footer__right">
+                    <div class="footer__icons">
+                        <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p class="footer__end">Copyright 2021. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
